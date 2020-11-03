@@ -12,9 +12,9 @@ Do Content Moderatora można również przesłyć obrazy w celu wydobycia z nich
 
 ### 2. Przypadki użycia
 
-* Moderacja treści na forach dyskusyjnych- blokowanie postów z niedozwolonymi treściami lub kierowanie ich do zatwierdzenia przez człowieka (moderatora) przed publikacją
-* Filtrowanie w sklepach internetowych niecenzuralnych komentarzy lub negatywnych opinii o produkcie (z wykorzystaniem niestandardowych list wyszukiwanych słów)
-* Wykrywanie w wiadomościach przekazywania danych kontaktowych gdy jest to niezgodne z regulaminem serwisu (np. BlaBlaCar)
+* Moderacja treści na forach dyskusyjnych- blokowanie postów z niedozwolonymi treściami lub kierowanie ich do zatwierdzenia przez człowieka (moderatora) przed publikacją.
+* Filtrowanie w sklepach internetowych niecenzuralnych komentarzy lub negatywnych opinii o produkcie (z wykorzystaniem niestandardowych list wyszukiwanych słów).
+* Wykrywanie w wiadomościach przekazywania danych kontaktowych gdy jest to niezgodne z regulaminem serwisu (np. BlaBlaCar).
 
 ### 3. Użytkowanie
 
@@ -33,13 +33,13 @@ Usługę Content Moderator wywołuje się przez api HTTP. Przesyłane teksty mog
 
 LUIS to usługa pozwalająca na rozpoznawanie znaczenia wypowiedzi sformułowanych w języku naturalnym. 
 Konfiguracja usługi polega na stworzeniu listy intencji i przypisanych do nich wyrażeń oraz encji, które mają być wykrywane.
-Po przesłaniu do usługi fragmentu tekstu zwracana jest lista skonfigurowanych intencji wraz z oceną (od 0 do 1) dopasowania każdego z nich. 
+Po przesłaniu do usługi fragmentu tekstu zwracana jest lista skonfigurowanych intencji wraz z oceną (od 0 do 1) dopasowania do każdej z nich. 
 
 ### 2. Przypadki użycia
 
-* Rozpoznawanie intencji poleceń wyydawanych systemowi inteligentnego domu
-* Przydzielanie klienta do odpowiedniego konsultatna po opisaniu swojej potrzeby mową ludzką
-* Proponowanie klientowi produktu na podstawie słownego opisu jego potrzeb
+* Rozpoznawanie intencji poleceń wyydawanych systemowi inteligentnego domu.
+* Przydzielanie klienta do odpowiedniego konsultatna po opisaniu swojej potrzeby mową ludzką.
+* Proponowanie klientowi produktu na podstawie słownego opisu jego potrzeb.
 
 ### 3. Użytkowanie
 
@@ -47,12 +47,12 @@ Po przesłaniu do usługi fragmentu tekstu zwracana jest lista skonfigurowanych 
 
 LUIS odpowiada na zapytania HTTP. Odpowiedź zawiera listę skonfigurowanych intencji wraz z oceną ich jakości dopasowania wyrażenia do nich.
 Tworzenie bazy intencji i wyrażeń odbywa się przez stronę internetową.
-Model może być dotrenowywany wielokrotnie
+Model może być dotrenowywany wielokrotnie.
 
 **Cennik**
 
 * Plan darmowy umożliwia wysłanie 10000 zapytań tekstowych miesięcznie z częstotliwością nie większą niż 5 transakcji  na sekundę i możliwe są jedynie zapytania tekstowe.
-* W planie standardowym dodatkowo możliwe są zapytania głosowe. Kosztuja one 5,50$, a zapytania tekstowe 1,5$ za 1000 zapytań
+* W planie standardowym dodatkowo możliwe są zapytania głosowe. Kosztuja one 5,50$, a zapytania tekstowe 1,5$ za 1000 zapytań.
 
 ## Text Analytics
 
@@ -66,8 +66,8 @@ Ostatnia z wmienionych funkcji zwraca linki do artykułów na wikipedii opisują
 ### 2. Przypadki użycia
 
 * Klasyfikacja opinii na temat produktu w sklepie internetowym i ukrywanie negatywnych, a eksponowanie pozytywnych.
-* Podział pilności obsługi zgłoszeń tak, żeby najpierw obsłużyć najbardziej niezadowolonych klientów
-* Dobór proponowanych treści (np. muzyki) na podstawie nastroju
+* Podział pilności obsługi zgłoszeń tak, żeby najpierw obsłużyć najbardziej niezadowolonych klientów.
+* Dobór proponowanych treści (np. muzyki) na podstawie nastroju.
 
 ### 3. Użytkowanie
 
@@ -77,6 +77,6 @@ API usługi wywołujemy przez HTTP. Do funkcji rozpoznawania nastroju przekazuje
 
 **Cennik**
 
-* Plan darmowy umożliwia wykonanie 5000 transakcji miesięcznie za darmo
+* Plan darmowy umożliwia wykonanie 5000 transakcji miesięcznie za darmo.
 * W planie standard cena jednostkowa jest tym mniejsza im bardziej wykorzystujemy usługę. Np. przetworzenie pierwszych 500000 rekordów kosztuje 2$ za 1000 rekordów, a powyżej 10 mln 0,25$ za 1000 rekordów.
 * Dostępne są również plany od S0 do S4 z ustalonym abonamentem miesięcznym w ramach którego użytkownik ma do wykonania określoną ilość transakcji. Plany te (w przeciwieństwie do wymienionych wcześniej) umożliwiają korzystanie z funkcji Named Entity Recognition w kontenerze.
