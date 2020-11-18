@@ -1,0 +1,671 @@
+************
+poza tym wstępem plik zawiera JSONa odebranego z z API LUISa
+
+https://assignmentbotluis.cognitiveservices.azure.com//luis/api/v2.0/apps/{appId}/versions/0.1/export?format=json
+************
+
+{
+    "luis_schema_version": "4.0.0",
+    "versionId": "0.1",
+    "name": "SmartHomeAssistant",
+    "desc": "",
+    "culture": "en-us",
+    "tokenizerVersion": "1.0.0",
+    "intents": [
+        {
+            "name": "cancel"
+        },
+        {
+            "name": "get_list"
+        },
+        {
+            "name": "get_weather"
+        },
+        {
+            "name": "None"
+        },
+        {
+            "name": "set_power_state"
+        },
+        {
+            "name": "who_is_at_home"
+        }
+    ],
+    "entities": [
+        {
+            "name": "DeviceType",
+            "roles": []
+        },
+        {
+            "name": "Location",
+            "roles": []
+        },
+        {
+            "name": "PowerState",
+            "roles": []
+        }
+    ],
+    "composites": [],
+    "closedLists": [],
+    "patternAnyEntities": [],
+    "regex_entities": [],
+    "prebuiltEntities": [],
+    "model_features": [
+        {
+            "name": "animals",
+            "mode": true,
+            "words": "cat,dog,hamster,rabbit,bird,cats,rabbits,rats",
+            "activated": true
+        },
+        {
+            "name": "PowerOutletSynonyms",
+            "mode": true,
+            "words": "socket,power outlet,smart socket,smart relay",
+            "activated": true
+        }
+    ],
+    "regex_features": [],
+    "patterns": [],
+    "utterances": [
+        {
+            "text": "bathroom",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "Location",
+                    "startPos": 0,
+                    "endPos": 7
+                }
+            ]
+        },
+        {
+            "text": "bedroom",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "Location",
+                    "startPos": 0,
+                    "endPos": 6
+                }
+            ]
+        },
+        {
+            "text": "break",
+            "intent": "cancel",
+            "entities": []
+        },
+        {
+            "text": "cancel",
+            "intent": "cancel",
+            "entities": []
+        },
+        {
+            "text": "detector",
+            "intent": "None",
+            "entities": []
+        },
+        {
+            "text": "give me some sound in bedroom",
+            "intent": "set_power_state",
+            "entities": [
+                {
+                    "entity": "PowerState",
+                    "startPos": 0,
+                    "endPos": 6
+                },
+                {
+                    "entity": "DeviceType",
+                    "startPos": 13,
+                    "endPos": 17
+                },
+                {
+                    "entity": "Location",
+                    "startPos": 22,
+                    "endPos": 28
+                }
+            ]
+        },
+        {
+            "text": "hall",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "Location",
+                    "startPos": 0,
+                    "endPos": 3
+                }
+            ]
+        },
+        {
+            "text": "is anybody home?",
+            "intent": "who_is_at_home",
+            "entities": []
+        },
+        {
+            "text": "is cold outside",
+            "intent": "get_weather",
+            "entities": []
+        },
+        {
+            "text": "is hot outside",
+            "intent": "get_weather",
+            "entities": []
+        },
+        {
+            "text": "is it cloudy?",
+            "intent": "get_weather",
+            "entities": []
+        },
+        {
+            "text": "kitchen",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "Location",
+                    "startPos": 0,
+                    "endPos": 6
+                }
+            ]
+        },
+        {
+            "text": "lamp",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 0,
+                    "endPos": 3
+                }
+            ]
+        },
+        {
+            "text": "lamps",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 0,
+                    "endPos": 4
+                }
+            ]
+        },
+        {
+            "text": "let's play some music",
+            "intent": "set_power_state",
+            "entities": [
+                {
+                    "entity": "PowerState",
+                    "startPos": 0,
+                    "endPos": 9
+                },
+                {
+                    "entity": "DeviceType",
+                    "startPos": 16,
+                    "endPos": 20
+                }
+            ]
+        },
+        {
+            "text": "light",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 0,
+                    "endPos": 4
+                }
+            ]
+        },
+        {
+            "text": "light off lamp in the living room",
+            "intent": "set_power_state",
+            "entities": [
+                {
+                    "entity": "PowerState",
+                    "startPos": 0,
+                    "endPos": 8
+                },
+                {
+                    "entity": "DeviceType",
+                    "startPos": 10,
+                    "endPos": 13
+                },
+                {
+                    "entity": "Location",
+                    "startPos": 22,
+                    "endPos": 32
+                }
+            ]
+        },
+        {
+            "text": "light up toilet",
+            "intent": "set_power_state",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 0,
+                    "endPos": 4
+                },
+                {
+                    "entity": "PowerState",
+                    "startPos": 0,
+                    "endPos": 7
+                },
+                {
+                    "entity": "Location",
+                    "startPos": 9,
+                    "endPos": 14
+                }
+            ]
+        },
+        {
+            "text": "list devices",
+            "intent": "get_list",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 5,
+                    "endPos": 11
+                }
+            ]
+        },
+        {
+            "text": "list lamps",
+            "intent": "get_list",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 5,
+                    "endPos": 9
+                }
+            ]
+        },
+        {
+            "text": "list my light sources",
+            "intent": "get_list",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 8,
+                    "endPos": 20
+                }
+            ]
+        },
+        {
+            "text": "list people at home",
+            "intent": "who_is_at_home",
+            "entities": []
+        },
+        {
+            "text": "list playing speakers",
+            "intent": "get_list",
+            "entities": [
+                {
+                    "entity": "PowerState",
+                    "startPos": 5,
+                    "endPos": 11
+                },
+                {
+                    "entity": "DeviceType",
+                    "startPos": 13,
+                    "endPos": 20
+                }
+            ]
+        },
+        {
+            "text": "list turned on speakers in living room",
+            "intent": "get_list",
+            "entities": [
+                {
+                    "entity": "PowerState",
+                    "startPos": 5,
+                    "endPos": 13
+                },
+                {
+                    "entity": "DeviceType",
+                    "startPos": 15,
+                    "endPos": 22
+                },
+                {
+                    "entity": "Location",
+                    "startPos": 27,
+                    "endPos": 37
+                }
+            ]
+        },
+        {
+            "text": "living room",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "Location",
+                    "startPos": 0,
+                    "endPos": 10
+                }
+            ]
+        },
+        {
+            "text": "music",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 0,
+                    "endPos": 4
+                }
+            ]
+        },
+        {
+            "text": "no no no",
+            "intent": "cancel",
+            "entities": []
+        },
+        {
+            "text": "not that dude",
+            "intent": "cancel",
+            "entities": []
+        },
+        {
+            "text": "power outlet",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 0,
+                    "endPos": 11
+                }
+            ]
+        },
+        {
+            "text": "smart socket",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 6,
+                    "endPos": 11
+                }
+            ]
+        },
+        {
+            "text": "speakers",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 0,
+                    "endPos": 7
+                }
+            ]
+        },
+        {
+            "text": "start music in living room",
+            "intent": "set_power_state",
+            "entities": [
+                {
+                    "entity": "PowerState",
+                    "startPos": 0,
+                    "endPos": 4
+                },
+                {
+                    "entity": "DeviceType",
+                    "startPos": 6,
+                    "endPos": 10
+                },
+                {
+                    "entity": "Location",
+                    "startPos": 15,
+                    "endPos": 25
+                }
+            ]
+        },
+        {
+            "text": "start radio in kitchen",
+            "intent": "set_power_state",
+            "entities": [
+                {
+                    "entity": "PowerState",
+                    "startPos": 0,
+                    "endPos": 4
+                },
+                {
+                    "entity": "DeviceType",
+                    "startPos": 6,
+                    "endPos": 10
+                },
+                {
+                    "entity": "Location",
+                    "startPos": 15,
+                    "endPos": 21
+                }
+            ]
+        },
+        {
+            "text": "stop",
+            "intent": "cancel",
+            "entities": []
+        },
+        {
+            "text": "stop processing",
+            "intent": "cancel",
+            "entities": []
+        },
+        {
+            "text": "stop the music",
+            "intent": "set_power_state",
+            "entities": [
+                {
+                    "entity": "PowerState",
+                    "startPos": 0,
+                    "endPos": 3
+                },
+                {
+                    "entity": "DeviceType",
+                    "startPos": 9,
+                    "endPos": 13
+                }
+            ]
+        },
+        {
+            "text": "tell me about weather",
+            "intent": "get_weather",
+            "entities": []
+        },
+        {
+            "text": "tell me all my speakers",
+            "intent": "get_list",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 15,
+                    "endPos": 22
+                }
+            ]
+        },
+        {
+            "text": "tell me what power outlets i have in the kichen",
+            "intent": "get_list",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 13,
+                    "endPos": 25
+                },
+                {
+                    "entity": "Location",
+                    "startPos": 41,
+                    "endPos": 46
+                }
+            ]
+        },
+        {
+            "text": "that is not what i wanted",
+            "intent": "cancel",
+            "entities": []
+        },
+        {
+            "text": "toilet",
+            "intent": "None",
+            "entities": [
+                {
+                    "entity": "Location",
+                    "startPos": 0,
+                    "endPos": 5
+                }
+            ]
+        },
+        {
+            "text": "turn off speakers in hall",
+            "intent": "set_power_state",
+            "entities": [
+                {
+                    "entity": "PowerState",
+                    "startPos": 0,
+                    "endPos": 7
+                },
+                {
+                    "entity": "DeviceType",
+                    "startPos": 9,
+                    "endPos": 16
+                },
+                {
+                    "entity": "Location",
+                    "startPos": 21,
+                    "endPos": 24
+                }
+            ]
+        },
+        {
+            "text": "turn on light in the kitchen",
+            "intent": "set_power_state",
+            "entities": [
+                {
+                    "entity": "PowerState",
+                    "startPos": 0,
+                    "endPos": 6
+                },
+                {
+                    "entity": "DeviceType",
+                    "startPos": 8,
+                    "endPos": 12
+                },
+                {
+                    "entity": "Location",
+                    "startPos": 21,
+                    "endPos": 27
+                }
+            ]
+        },
+        {
+            "text": "turn on the device",
+            "intent": "set_power_state",
+            "entities": [
+                {
+                    "entity": "PowerState",
+                    "startPos": 0,
+                    "endPos": 6
+                },
+                {
+                    "entity": "DeviceType",
+                    "startPos": 12,
+                    "endPos": 17
+                }
+            ]
+        },
+        {
+            "text": "turn on the speakers in bedroom",
+            "intent": "set_power_state",
+            "entities": [
+                {
+                    "entity": "PowerState",
+                    "startPos": 0,
+                    "endPos": 6
+                },
+                {
+                    "entity": "DeviceType",
+                    "startPos": 12,
+                    "endPos": 19
+                },
+                {
+                    "entity": "Location",
+                    "startPos": 24,
+                    "endPos": 30
+                }
+            ]
+        },
+        {
+            "text": "turn socket in toilet off",
+            "intent": "set_power_state",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 5,
+                    "endPos": 10
+                },
+                {
+                    "entity": "Location",
+                    "startPos": 15,
+                    "endPos": 20
+                },
+                {
+                    "entity": "PowerState",
+                    "startPos": 22,
+                    "endPos": 24
+                }
+            ]
+        },
+        {
+            "text": "what is the temperature",
+            "intent": "get_weather",
+            "entities": []
+        },
+        {
+            "text": "what is the weather?",
+            "intent": "get_weather",
+            "entities": []
+        },
+        {
+            "text": "what lights are on?",
+            "intent": "get_list",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 5,
+                    "endPos": 10
+                },
+                {
+                    "entity": "PowerState",
+                    "startPos": 12,
+                    "endPos": 17
+                }
+            ]
+        },
+        {
+            "text": "which sound sources are not playing?",
+            "intent": "get_list",
+            "entities": [
+                {
+                    "entity": "DeviceType",
+                    "startPos": 6,
+                    "endPos": 18
+                },
+                {
+                    "entity": "PowerState",
+                    "startPos": 20,
+                    "endPos": 34
+                }
+            ]
+        },
+        {
+            "text": "who is at home?",
+            "intent": "who_is_at_home",
+            "entities": []
+        },
+        {
+            "text": "who is in the house?",
+            "intent": "who_is_at_home",
+            "entities": []
+        }
+    ],
+    "settings": []
+}
