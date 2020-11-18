@@ -32,7 +32,7 @@ Ponad to hostowanie każdego niestandardowego modelu kosztuje 2,10$ za godzinę.
 
 Usługa Synthesize Text Input to Speech umożliwia syntezowanie mowy z dostarczonego tekstu. 
 Dostępne jest 75 głosów mówiących w ponad 45 językach i dialektach, ale tylko dla wybranych dostępne są zaawansowane głosy neuronowe.
-Głosy neuronowe brzmią bardziej naturalnie przez 
+Głosy neuronowe brzmią bardziej naturalnie dzięki zastosowaniu do generowania głosu głębokich siedzi neuronowych.
 
 ### 2. Przypadki użycia
 
@@ -67,7 +67,7 @@ Możliwa jest jednoczesna translacja na wiele języków.
 
 * Realizacja ciągłej rozmowy głosowej między osobami posługującymi się różnymi językami
 * Prowadzenie prezentacji udostępnianej jednocześnie w wielu językach
-* Zastąpienie ludzkiego lektora
+* Zastąpienie ludzkiego lektora w filmiach
 
 ### 3. Użytkowanie
 
@@ -80,4 +80,4 @@ Tekst w języku docelowym jest zwracany razem z wynikiem zamiany mowy na tekst.
 **Cennik**
 
 W planie darmowym można bezpłatnie przeprowadzić translację 5 godzin ścieżki dźwiękowej miesięcznie.
-W planie standardowym opłata za translację godziny audio wynosi 2,50$
+W planie standardowym opłata za translację godziny audio wynosi 2,50$.
