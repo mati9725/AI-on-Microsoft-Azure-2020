@@ -19,6 +19,12 @@ Do zamiany tekstu na mowę wykorzystano Synthesize Text Input to Speech, równie
 Za zrozumienie intencji użytkownika odpowiada usługa LUIS.
 Dzięki wykorzystaniu intencji typu Machine Learned nie są wymagane ściśle określone komendy, ponieważ Luis potrafi zaklasyfikować również komendy wypowiedziane innymi słowami, a nie dokładnie tymi, które zostały przewidziane i dodane do słowniczka.
 
+## Tworzenie
+
+Proces tworzenia opierał się głównie na programowaniu w języku C#. 
+Poza tym należało też stworzyć odpowiednie usługi na Azure.
+Istotną częścią pracy było również wypełnienie bazy wiedzy usługi LUIS.
+
 ## Architektura
 
 Bot został zaprogramowany w języku C# z wykorzystaniem dedykowanych SDK do usług wymienionych powyżej.
@@ -34,6 +40,7 @@ Możliwe jest przerwanie dialogu (również dopytywania) np. komendą "Cancel"
 Poza tym dostępne są jeszcze komendy: "Who is at home?", "Get weather", "Check internet speed".
 Obsługa nowych komend wymaga zmian w kodzie, jednak aby dodać lub usunąć typy urządzeń lub lokalizacje (np. kuchnia, biurko) nie jest to konieczne. 
 Należy w tym celu jedynie dodać encję-dziecko dla odpowiedniej encji głównej.
+Aplikacja przy starcie pobiera encje wykorzystując LUIS Authoring API i SDK oraz zapisuje je w bazie danych.
 
 Kontekst bazy danych stworzono z wykorzystaniem EntityFrameworkCore, co umożliwia wygenerowanie bazy (podejście Code First) na różne systemy zarządzania. 
 W celach testowych korzystano z bazy InMemory Sqlite.
@@ -44,3 +51,9 @@ Wspomniany moduł przetwarzania komend ma postać biblioteki .NET standard, co u
 Dzięki wykorzystaniu SDK wykorzystywanych usług tworzenie było znacznie szybsze i prostsze niż "standardowa" obsługa API HTTP.
 Niestety mimo stosunkowo krótkiej i nieskomplikowanej  interakcji z tą blbloioteką natrafiłem na jej niedoskonałości w postaci klas obiektów nie zmapowanych w pełni.
 Przez to konieczne było operowanie na JSON'ach co jest znacznie mniej wyygodne i czytelne niż gdyby obiekt był w pełni zmapowany na klaast .NET.
+
+## Linki
+
+* Krótka wideo-prezentacja bota: https://youtu.be/2A3grKJZCVQ
+* Kod źródłowy rozwiązania: https://github.com/mati9725/AI-on-Microsoft-Azure-2020/tree/main/SmartHomeVoiceAssistant/SmartHomeBotWpfApp
+* Backup LUISa: https://github.com/mati9725/AI-on-Microsoft-Azure-2020/tree/main/SmartHomeVoiceAssistant/LUIS_Backups
