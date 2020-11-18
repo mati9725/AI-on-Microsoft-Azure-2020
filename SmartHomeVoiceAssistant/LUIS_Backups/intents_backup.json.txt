@@ -1,0 +1,3983 @@
+************
+poza tym wstępem plik zawiera JSONa odebranego z z API LUISa
+
+https://assignmentbotluis.cognitiveservices.azure.com//luis/api/v2.0/apps/{AppId}}/versions/0.1/examples
+************
+
+[
+    {
+        "id": 865216142,
+        "text": "cancel processsing",
+        "intentLabel": "cancel",
+        "tokenizedText": [
+            "cancel",
+            "processsing"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "cancel",
+                "score": 0.958995044
+            },
+            {
+                "name": "None",
+                "score": 0.0209114123
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00448206253
+            },
+            {
+                "name": "get_list",
+                "score": 0.00299366633
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00277098431
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00228079548
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0022163603
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865216141,
+        "text": "cancel command",
+        "intentLabel": "cancel",
+        "tokenizedText": [
+            "cancel",
+            "command"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "cancel",
+                "score": 0.9360724
+            },
+            {
+                "name": "None",
+                "score": 0.0208681114
+            },
+            {
+                "name": "get_weather",
+                "score": 0.007821155
+            },
+            {
+                "name": "get_list",
+                "score": 0.00526789064
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.004985266
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.003988395
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00336248
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865216140,
+        "text": "measure internet connection speed",
+        "intentLabel": "check_internet_speed",
+        "tokenizedText": [
+            "measure",
+            "internet",
+            "connection",
+            "speed"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "check_internet_speed",
+                "score": 0.930639
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0173424538
+            },
+            {
+                "name": "None",
+                "score": 0.0106051322
+            },
+            {
+                "name": "get_list",
+                "score": 0.01026523
+            },
+            {
+                "name": "cancel",
+                "score": 0.00979874749
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00619706372
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.004873364
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865216104,
+        "text": "make speed test",
+        "intentLabel": "check_internet_speed",
+        "tokenizedText": [
+            "make",
+            "speed",
+            "test"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "check_internet_speed",
+                "score": 0.9171191
+            },
+            {
+                "name": "None",
+                "score": 0.02358041
+            },
+            {
+                "name": "cancel",
+                "score": 0.012888235
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.00903276447
+            },
+            {
+                "name": "get_list",
+                "score": 0.00677771773
+            },
+            {
+                "name": "get_weather",
+                "score": 0.006240622
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00379934162
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865216103,
+        "text": "check internet speed",
+        "intentLabel": "check_internet_speed",
+        "tokenizedText": [
+            "check",
+            "internet",
+            "speed"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "check_internet_speed",
+                "score": 0.951464355
+            },
+            {
+                "name": "None",
+                "score": 0.0216397047
+            },
+            {
+                "name": "cancel",
+                "score": 0.0111962212
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.00689731166
+            },
+            {
+                "name": "get_list",
+                "score": 0.004890553
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00398933841
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.002945061
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865216102,
+        "text": "what is internet speed?",
+        "intentLabel": "check_internet_speed",
+        "tokenizedText": [
+            "what",
+            "is",
+            "internet",
+            "speed",
+            "?"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "check_internet_speed",
+                "score": 0.950024247
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0285114273
+            },
+            {
+                "name": "get_list",
+                "score": 0.0168066863
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.014363762
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.00872067
+            },
+            {
+                "name": "cancel",
+                "score": 0.00536243152
+            },
+            {
+                "name": "None",
+                "score": 0.00177078671
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865198844,
+        "text": "tell me about weather",
+        "intentLabel": "get_weather",
+        "tokenizedText": [
+            "tell",
+            "me",
+            "about",
+            "weather"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "get_weather",
+                "score": 0.89187175
+            },
+            {
+                "name": "get_list",
+                "score": 0.03875483
+            },
+            {
+                "name": "None",
+                "score": 0.0152830891
+            },
+            {
+                "name": "cancel",
+                "score": 0.0127983689
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0125187058
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.004933886
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00400401652
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865198843,
+        "text": "is cold outside",
+        "intentLabel": "get_weather",
+        "tokenizedText": [
+            "is",
+            "cold",
+            "outside"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "get_weather",
+                "score": 0.927054048
+            },
+            {
+                "name": "None",
+                "score": 0.021720117
+            },
+            {
+                "name": "cancel",
+                "score": 0.013943986
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.00862134
+            },
+            {
+                "name": "get_list",
+                "score": 0.0071162153
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00641902164
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00473044068
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865198842,
+        "text": "is hot outside",
+        "intentLabel": "get_weather",
+        "tokenizedText": [
+            "is",
+            "hot",
+            "outside"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "get_weather",
+                "score": 0.927152932
+            },
+            {
+                "name": "None",
+                "score": 0.0217050686
+            },
+            {
+                "name": "cancel",
+                "score": 0.0139475372
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.008603254
+            },
+            {
+                "name": "get_list",
+                "score": 0.00710317
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00643209834
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.004730292
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865198841,
+        "text": "is it cloudy?",
+        "intentLabel": "get_weather",
+        "tokenizedText": [
+            "is",
+            "it",
+            "cloudy",
+            "?"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "get_weather",
+                "score": 0.891644359
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.0174156427
+            },
+            {
+                "name": "get_list",
+                "score": 0.0158150643
+            },
+            {
+                "name": "None",
+                "score": 0.0146015538
+            },
+            {
+                "name": "cancel",
+                "score": 0.0120110363
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0117500061
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.006109194
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865198840,
+        "text": "what is the temperature",
+        "intentLabel": "get_weather",
+        "tokenizedText": [
+            "what",
+            "is",
+            "the",
+            "temperature"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "get_weather",
+                "score": 0.9001131
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0188129768
+            },
+            {
+                "name": "None",
+                "score": 0.0134362727
+            },
+            {
+                "name": "cancel",
+                "score": 0.0133138094
+            },
+            {
+                "name": "get_list",
+                "score": 0.011924603
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.009056744
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00578125566
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865198839,
+        "text": "what is the weather?",
+        "intentLabel": "get_weather",
+        "tokenizedText": [
+            "what",
+            "is",
+            "the",
+            "weather",
+            "?"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "get_weather",
+                "score": 0.9306457
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.0355543979
+            },
+            {
+                "name": "get_list",
+                "score": 0.0181312114
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0123216892
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00660187565
+            },
+            {
+                "name": "cancel",
+                "score": 0.00621222658
+            },
+            {
+                "name": "None",
+                "score": 0.003699993
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865198629,
+        "text": "who is in the house?",
+        "intentLabel": "who_is_at_home",
+        "tokenizedText": [
+            "who",
+            "is",
+            "in",
+            "the",
+            "house",
+            "?"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "who_is_at_home",
+                "score": 0.880224764
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0439558439
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0353892669
+            },
+            {
+                "name": "get_list",
+                "score": 0.0213373285
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00598472124
+            },
+            {
+                "name": "cancel",
+                "score": 0.00537539832
+            },
+            {
+                "name": "None",
+                "score": 0.00190144894
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865198628,
+        "text": "list people at home",
+        "intentLabel": "who_is_at_home",
+        "tokenizedText": [
+            "list",
+            "people",
+            "at",
+            "home"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "who_is_at_home",
+                "score": 0.889776766
+            },
+            {
+                "name": "get_list",
+                "score": 0.08365594
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.009014452
+            },
+            {
+                "name": "cancel",
+                "score": 0.008772725
+            },
+            {
+                "name": "get_weather",
+                "score": 0.005605988
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.004340882
+            },
+            {
+                "name": "None",
+                "score": 0.00303338934
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865196643,
+        "text": "is anybody home?",
+        "intentLabel": "who_is_at_home",
+        "tokenizedText": [
+            "is",
+            "anybody",
+            "home",
+            "?"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "who_is_at_home",
+                "score": 0.904519558
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0209977422
+            },
+            {
+                "name": "None",
+                "score": 0.01393108
+            },
+            {
+                "name": "cancel",
+                "score": 0.0107999016
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0107513815
+            },
+            {
+                "name": "get_list",
+                "score": 0.0088277
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00556224538
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865196642,
+        "text": "who is at home?",
+        "intentLabel": "who_is_at_home",
+        "tokenizedText": [
+            "who",
+            "is",
+            "at",
+            "home",
+            "?"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "who_is_at_home",
+                "score": 0.967008352
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0242234878
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0103718266
+            },
+            {
+                "name": "cancel",
+                "score": 0.007319963
+            },
+            {
+                "name": "None",
+                "score": 0.005839371
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.005710116
+            },
+            {
+                "name": "get_list",
+                "score": 0.004715874
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865118008,
+        "text": "bathroom",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "bathroom"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "Location",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.966451764
+            },
+            {
+                "name": "cancel",
+                "score": 0.0268101636
+            },
+            {
+                "name": "get_weather",
+                "score": 0.007935635
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00369255873
+            },
+            {
+                "name": "get_list",
+                "score": 0.00214587385
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00204481557
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0009935003
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "Bathroom",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "bathroom",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "bathroom",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865118007,
+        "text": "hall",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "hall"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "Location",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.960144043
+            },
+            {
+                "name": "cancel",
+                "score": 0.02591246
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.007404359
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0073213
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.003403711
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00180581224
+            },
+            {
+                "name": "get_list",
+                "score": 0.000765121367
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "Hall",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "hall",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "hall",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865118006,
+        "text": "toilet",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "toilet"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "Location",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.887988
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0427657142
+            },
+            {
+                "name": "cancel",
+                "score": 0.0232388787
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00577203929
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00296152756
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.001498475
+            },
+            {
+                "name": "get_list",
+                "score": 0.00129197992
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "Toilet",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "toilet",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "toilet",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865118005,
+        "text": "living room",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "living",
+            "room"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "Location",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.8856533
+            },
+            {
+                "name": "cancel",
+                "score": 0.0188644845
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0139356768
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00613322435
+            },
+            {
+                "name": "get_list",
+                "score": 0.006093193
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00326478714
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00171093282
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "LivingRoom",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "living room",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "living room",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865118003,
+        "text": "bedroom",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "bedroom"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "Location",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.9574368
+            },
+            {
+                "name": "cancel",
+                "score": 0.024462821
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0164380241
+            },
+            {
+                "name": "get_weather",
+                "score": 0.005489695
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.002908526
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00129877636
+            },
+            {
+                "name": "get_list",
+                "score": 0.000237562825
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "Bedroom",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "bedroom",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "bedroom",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865118002,
+        "text": "kitchen",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "kitchen"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "Location",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.9540908
+            },
+            {
+                "name": "cancel",
+                "score": 0.023239322
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0102649359
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00559696043
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00293672131
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00132413348
+            },
+            {
+                "name": "get_list",
+                "score": 0.0009999594
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "Kitchen",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "kitchen",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "kitchen",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865096789,
+        "text": "turn socket in toilet off",
+        "intentLabel": "set_power_state",
+        "tokenizedText": [
+            "turn",
+            "socket",
+            "in",
+            "toilet",
+            "off"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 4,
+                "endTokenIndex": 4,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "set_power_state",
+                "score": 0.9742022
+            },
+            {
+                "name": "None",
+                "score": 0.02791749
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.007551873
+            },
+            {
+                "name": "get_list",
+                "score": 0.00705561647
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00669384375
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.004399528
+            },
+            {
+                "name": "cancel",
+                "score": 0.004166589
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "Socket",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "socket",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "socket",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Toilet",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "phrase": "toilet",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "phrase": "toilet",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "TurnedOff",
+                "startTokenIndex": 4,
+                "endTokenIndex": 4,
+                "phrase": "off",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 4,
+                "endTokenIndex": 4,
+                "phrase": "off",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865096781,
+        "text": "tell me what power outlets i have in the kichen",
+        "intentLabel": "get_list",
+        "tokenizedText": [
+            "tell",
+            "me",
+            "what",
+            "power",
+            "outlets",
+            "i",
+            "have",
+            "in",
+            "the",
+            "kichen"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 3,
+                "endTokenIndex": 4,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 9,
+                "endTokenIndex": 9,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "get_list",
+                "score": 0.94060874
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.05135908
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0231513213
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.0124202659
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.005800353
+            },
+            {
+                "name": "cancel",
+                "score": 0.00379122864
+            },
+            {
+                "name": "None",
+                "score": 0.00162322121
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "Socket",
+                "startTokenIndex": 3,
+                "endTokenIndex": 4,
+                "phrase": "power outlets",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 3,
+                "endTokenIndex": 4,
+                "phrase": "power outlets",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Kitchen",
+                "startTokenIndex": 9,
+                "endTokenIndex": 9,
+                "phrase": "kichen",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 9,
+                "endTokenIndex": 9,
+                "phrase": "kichen",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865096545,
+        "text": "power outlet",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "power",
+            "outlet"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.9376205
+            },
+            {
+                "name": "cancel",
+                "score": 0.0203930046
+            },
+            {
+                "name": "get_list",
+                "score": 0.0108820321
+            },
+            {
+                "name": "get_weather",
+                "score": 0.007611572
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00427968
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00318590272
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0028485104
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "Socket",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "power outlet",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "power outlet",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865096497,
+        "text": "smart socket",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "smart",
+            "socket"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.926219165
+            },
+            {
+                "name": "cancel",
+                "score": 0.0198123623
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.008958032
+            },
+            {
+                "name": "get_weather",
+                "score": 0.008495643
+            },
+            {
+                "name": "get_list",
+                "score": 0.00501505472
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.004167157
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.003115604
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "Socket",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "socket",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "socket",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865088826,
+        "text": "list devices",
+        "intentLabel": "get_list",
+        "tokenizedText": [
+            "list",
+            "devices"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "get_list",
+                "score": 0.909492731
+            },
+            {
+                "name": "None",
+                "score": 0.0256297514
+            },
+            {
+                "name": "cancel",
+                "score": 0.0170649886
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.009631903
+            },
+            {
+                "name": "get_weather",
+                "score": 0.007666037
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00381368445
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0015486175
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "devices",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865088822,
+        "text": "turn on the device",
+        "intentLabel": "set_power_state",
+        "tokenizedText": [
+            "turn",
+            "on",
+            "the",
+            "device"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "set_power_state",
+                "score": 0.9279006
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0116333552
+            },
+            {
+                "name": "None",
+                "score": 0.0112437569
+            },
+            {
+                "name": "cancel",
+                "score": 0.0107929511
+            },
+            {
+                "name": "get_list",
+                "score": 0.009372881
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.005641778
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00469336426
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "TurnedOn",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "turn on",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "turn on",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "phrase": "device",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865060269,
+        "text": "list turned on speakers in living room",
+        "intentLabel": "get_list",
+        "tokenizedText": [
+            "list",
+            "turned",
+            "on",
+            "speakers",
+            "in",
+            "living",
+            "room"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 1,
+                "endTokenIndex": 2,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 5,
+                "endTokenIndex": 6,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "get_list",
+                "score": 0.9361873
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.112985671
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.0128497956
+            },
+            {
+                "name": "get_weather",
+                "score": 0.004658066
+            },
+            {
+                "name": "None",
+                "score": 0.00448506838
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.003928106
+            },
+            {
+                "name": "cancel",
+                "score": 0.002136333
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "TurnedOn",
+                "startTokenIndex": 1,
+                "endTokenIndex": 2,
+                "phrase": "turned on",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 1,
+                "endTokenIndex": 2,
+                "phrase": "turned on",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "phrase": "speakers",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "phrase": "speakers",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "LivingRoom",
+                "startTokenIndex": 5,
+                "endTokenIndex": 6,
+                "phrase": "living room",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 5,
+                "endTokenIndex": 6,
+                "phrase": "living room",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 865060268,
+        "text": "list lamps",
+        "intentLabel": "get_list",
+        "tokenizedText": [
+            "list",
+            "lamps"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "get_list",
+                "score": 0.8406403
+            },
+            {
+                "name": "None",
+                "score": 0.112798713
+            },
+            {
+                "name": "cancel",
+                "score": 0.008941324
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00803298
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00633305451
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00344408583
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.00177562481
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "lamps",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "lamps",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 864039107,
+        "text": "detector",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "detector"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.966451764
+            },
+            {
+                "name": "cancel",
+                "score": 0.0268101636
+            },
+            {
+                "name": "get_weather",
+                "score": 0.007935635
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00369255873
+            },
+            {
+                "name": "get_list",
+                "score": 0.00214587385
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00204481557
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0009935003
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 864039106,
+        "text": "lamps",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "lamps"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.8920909
+            },
+            {
+                "name": "get_list",
+                "score": 0.07059281
+            },
+            {
+                "name": "cancel",
+                "score": 0.0225013029
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00650072237
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00326056778
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00147457665
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.000925634464
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "LightSource",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "lamps",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "lamps",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 864039105,
+        "text": "lamp",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "lamp"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.956933737
+            },
+            {
+                "name": "cancel",
+                "score": 0.0263325237
+            },
+            {
+                "name": "get_weather",
+                "score": 0.006718146
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00333172176
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.002809985
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00163212186
+            },
+            {
+                "name": "get_list",
+                "score": 0.0009471453
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "LightSource",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "lamp",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "lamp",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 864039104,
+        "text": "light",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "light"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.903554261
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0246351529
+            },
+            {
+                "name": "cancel",
+                "score": 0.0228556637
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00479035266
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00266555022
+            },
+            {
+                "name": "get_list",
+                "score": 0.00194642728
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00107180479
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "LightSource",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "light",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "light",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 864039103,
+        "text": "music",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "music"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.9469808
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0526412055
+            },
+            {
+                "name": "get_weather",
+                "score": 0.004934903
+            },
+            {
+                "name": "cancel",
+                "score": 0.00431120861
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00284407521
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00135862629
+            },
+            {
+                "name": "get_list",
+                "score": 0.000863393652
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "music",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "music",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 864039102,
+        "text": "speakers",
+        "intentLabel": "None",
+        "tokenizedText": [
+            "speakers"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "None",
+                "score": 0.9272581
+            },
+            {
+                "name": "get_list",
+                "score": 0.0454767421
+            },
+            {
+                "name": "cancel",
+                "score": 0.020363465
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00274758041
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00220928458
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0008041849
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.0007357525
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "speakers",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "speakers",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861905853,
+        "text": "no no no",
+        "intentLabel": "cancel",
+        "tokenizedText": [
+            "no",
+            "no",
+            "no"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "cancel",
+                "score": 0.8936627
+            },
+            {
+                "name": "None",
+                "score": 0.03123621
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0134718465
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0110058393
+            },
+            {
+                "name": "get_list",
+                "score": 0.0106531959
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00550872972
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00533400429
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861905850,
+        "text": "not that dude",
+        "intentLabel": "cancel",
+        "tokenizedText": [
+            "not",
+            "that",
+            "dude"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "cancel",
+                "score": 0.921675742
+            },
+            {
+                "name": "None",
+                "score": 0.0304095931
+            },
+            {
+                "name": "get_list",
+                "score": 0.0100832852
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.008025989
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00769778062
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00469798548
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00444896054
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861905779,
+        "text": "that is not what i wanted",
+        "intentLabel": "cancel",
+        "tokenizedText": [
+            "that",
+            "is",
+            "not",
+            "what",
+            "i",
+            "wanted"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "cancel",
+                "score": 0.8967898
+            },
+            {
+                "name": "get_list",
+                "score": 0.028146131
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0276480373
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0249474477
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.01008204
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00653222762
+            },
+            {
+                "name": "None",
+                "score": 0.00304335426
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861905734,
+        "text": "stop processing",
+        "intentLabel": "cancel",
+        "tokenizedText": [
+            "stop",
+            "processing"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "cancel",
+                "score": 0.917845964
+            },
+            {
+                "name": "None",
+                "score": 0.02676792
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0193086937
+            },
+            {
+                "name": "get_weather",
+                "score": 0.007769332
+            },
+            {
+                "name": "get_list",
+                "score": 0.00523568643
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.004090622
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00333322329
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861905733,
+        "text": "break",
+        "intentLabel": "cancel",
+        "tokenizedText": [
+            "break"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "cancel",
+                "score": 0.9090174
+            },
+            {
+                "name": "None",
+                "score": 0.0820502862
+            },
+            {
+                "name": "get_weather",
+                "score": 0.007935635
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00369255873
+            },
+            {
+                "name": "get_list",
+                "score": 0.00214587385
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00204481557
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0009935003
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861905672,
+        "text": "stop",
+        "intentLabel": "cancel",
+        "tokenizedText": [
+            "stop"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "cancel",
+                "score": 0.8816905
+            },
+            {
+                "name": "None",
+                "score": 0.06628322
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.03171604
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00522416225
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00302700419
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00161227351
+            },
+            {
+                "name": "get_list",
+                "score": 0.00157991669
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861905671,
+        "text": "cancel",
+        "intentLabel": "cancel",
+        "tokenizedText": [
+            "cancel"
+        ],
+        "entityLabels": [],
+        "intentPredictions": [
+            {
+                "name": "cancel",
+                "score": 0.9670815
+            },
+            {
+                "name": "None",
+                "score": 0.05649437
+            },
+            {
+                "name": "get_weather",
+                "score": 0.005666628
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00297616678
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00168356812
+            },
+            {
+                "name": "get_list",
+                "score": 0.00163215073
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.000782360148
+            }
+        ],
+        "entityPredictions": [],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861905512,
+        "text": "tell me all my speakers",
+        "intentLabel": "get_list",
+        "tokenizedText": [
+            "tell",
+            "me",
+            "all",
+            "my",
+            "speakers"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 4,
+                "endTokenIndex": 4,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "get_list",
+                "score": 0.8796432
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.03780111
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0204944164
+            },
+            {
+                "name": "None",
+                "score": 0.0185809024
+            },
+            {
+                "name": "cancel",
+                "score": 0.00494464254
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00460286951
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00425963663
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 4,
+                "endTokenIndex": 4,
+                "phrase": "speakers",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 4,
+                "endTokenIndex": 4,
+                "phrase": "speakers",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861905497,
+        "text": "which sound sources are not playing?",
+        "intentLabel": "get_list",
+        "tokenizedText": [
+            "which",
+            "sound",
+            "sources",
+            "are",
+            "not",
+            "playing",
+            "?"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 2,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 3,
+                "endTokenIndex": 5,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "get_list",
+                "score": 0.9386543
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.042564407
+            },
+            {
+                "name": "cancel",
+                "score": 0.0151502928
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.013126405
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0125327231
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00624387851
+            },
+            {
+                "name": "None",
+                "score": 0.00153697561
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 1,
+                "endTokenIndex": 2,
+                "phrase": "sound sources",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 2,
+                "phrase": "sound sources",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "TurnedOff",
+                "startTokenIndex": 3,
+                "endTokenIndex": 5,
+                "phrase": "are not playing",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 3,
+                "endTokenIndex": 5,
+                "phrase": "are not playing",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861904578,
+        "text": "give me some sound in bedroom",
+        "intentLabel": "set_power_state",
+        "tokenizedText": [
+            "give",
+            "me",
+            "some",
+            "sound",
+            "in",
+            "bedroom"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 5,
+                "endTokenIndex": 5,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "set_power_state",
+                "score": 0.934443951
+            },
+            {
+                "name": "get_list",
+                "score": 0.01915856
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0104079675
+            },
+            {
+                "name": "None",
+                "score": 0.0103294151
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00948394
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00522487238
+            },
+            {
+                "name": "cancel",
+                "score": 0.004791248
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "TurnedOn",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "give me",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "give me",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "phrase": "sound",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "phrase": "sound",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Bedroom",
+                "startTokenIndex": 5,
+                "endTokenIndex": 5,
+                "phrase": "bedroom",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 5,
+                "endTokenIndex": 5,
+                "phrase": "bedroom",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861904549,
+        "text": "start radio in kitchen",
+        "intentLabel": "set_power_state",
+        "tokenizedText": [
+            "start",
+            "radio",
+            "in",
+            "kitchen"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "set_power_state",
+                "score": 0.919609845
+            },
+            {
+                "name": "None",
+                "score": 0.0225490034
+            },
+            {
+                "name": "get_list",
+                "score": 0.009655451
+            },
+            {
+                "name": "cancel",
+                "score": 0.008281413
+            },
+            {
+                "name": "get_weather",
+                "score": 0.007996079
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.007227752
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.004693709
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "TurnedOn",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "start",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "start",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "radio",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "radio",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Kitchen",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "phrase": "kitchen",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "phrase": "kitchen",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861904492,
+        "text": "turn off speakers in hall",
+        "intentLabel": "set_power_state",
+        "tokenizedText": [
+            "turn",
+            "off",
+            "speakers",
+            "in",
+            "hall"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 4,
+                "endTokenIndex": 4,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "set_power_state",
+                "score": 0.912602067
+            },
+            {
+                "name": "get_list",
+                "score": 0.0420773253
+            },
+            {
+                "name": "None",
+                "score": 0.0189313386
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.005187533
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00422925362
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.003667637
+            },
+            {
+                "name": "cancel",
+                "score": 0.00299293851
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "TurnedOff",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "turn off",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "turn off",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "phrase": "speakers",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "phrase": "speakers",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Hall",
+                "startTokenIndex": 4,
+                "endTokenIndex": 4,
+                "phrase": "hall",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 4,
+                "endTokenIndex": 4,
+                "phrase": "hall",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861904491,
+        "text": "light off lamp in the living room",
+        "intentLabel": "set_power_state",
+        "tokenizedText": [
+            "light",
+            "off",
+            "lamp",
+            "in",
+            "the",
+            "living",
+            "room"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 5,
+                "endTokenIndex": 6,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "set_power_state",
+                "score": 0.9606298
+            },
+            {
+                "name": "get_list",
+                "score": 0.0312541127
+            },
+            {
+                "name": "None",
+                "score": 0.0261113178
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.008741248
+            },
+            {
+                "name": "get_weather",
+                "score": 0.008123397
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.0043755183
+            },
+            {
+                "name": "cancel",
+                "score": 0.00145814242
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "TurnedOff",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "light off",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "light off",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "LightSource",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "phrase": "lamp",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "phrase": "lamp",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "LivingRoom",
+                "startTokenIndex": 5,
+                "endTokenIndex": 6,
+                "phrase": "living room",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 5,
+                "endTokenIndex": 6,
+                "phrase": "living room",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861904131,
+        "text": "stop the music",
+        "intentLabel": "set_power_state",
+        "tokenizedText": [
+            "stop",
+            "the",
+            "music"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "set_power_state",
+                "score": 0.8572914
+            },
+            {
+                "name": "cancel",
+                "score": 0.09842566
+            },
+            {
+                "name": "get_weather",
+                "score": 0.009460886
+            },
+            {
+                "name": "None",
+                "score": 0.008717938
+            },
+            {
+                "name": "get_list",
+                "score": 0.005481408
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.0045711305
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00353439664
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "TurnedOff",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "stop",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "stop",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "phrase": "music",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "phrase": "music",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861903552,
+        "text": "turn on the speakers in bedroom",
+        "intentLabel": "set_power_state",
+        "tokenizedText": [
+            "turn",
+            "on",
+            "the",
+            "speakers",
+            "in",
+            "bedroom"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 5,
+                "endTokenIndex": 5,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "set_power_state",
+                "score": 0.9546982
+            },
+            {
+                "name": "get_list",
+                "score": 0.0529783
+            },
+            {
+                "name": "None",
+                "score": 0.0116009433
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.005739062
+            },
+            {
+                "name": "get_weather",
+                "score": 0.004705981
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00346189761
+            },
+            {
+                "name": "cancel",
+                "score": 0.00164490636
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "TurnedOn",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "turn on",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "turn on",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "phrase": "speakers",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 3,
+                "endTokenIndex": 3,
+                "phrase": "speakers",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Bedroom",
+                "startTokenIndex": 5,
+                "endTokenIndex": 5,
+                "phrase": "bedroom",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 5,
+                "endTokenIndex": 5,
+                "phrase": "bedroom",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861903550,
+        "text": "start music in living room",
+        "intentLabel": "set_power_state",
+        "tokenizedText": [
+            "start",
+            "music",
+            "in",
+            "living",
+            "room"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 3,
+                "endTokenIndex": 4,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "set_power_state",
+                "score": 0.914775133
+            },
+            {
+                "name": "None",
+                "score": 0.0582333
+            },
+            {
+                "name": "get_list",
+                "score": 0.020074131
+            },
+            {
+                "name": "get_weather",
+                "score": 0.0060137054
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00597695261
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.004083012
+            },
+            {
+                "name": "cancel",
+                "score": 0.0026010205
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "TurnedOn",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "start",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "start",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "music",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "music",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "LivingRoom",
+                "startTokenIndex": 3,
+                "endTokenIndex": 4,
+                "phrase": "living room",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 3,
+                "endTokenIndex": 4,
+                "phrase": "living room",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861903549,
+        "text": "light up toilet",
+        "intentLabel": "set_power_state",
+        "tokenizedText": [
+            "light",
+            "up",
+            "toilet"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "set_power_state",
+                "score": 0.8607431
+            },
+            {
+                "name": "None",
+                "score": 0.119267873
+            },
+            {
+                "name": "get_list",
+                "score": 0.00967676
+            },
+            {
+                "name": "get_weather",
+                "score": 0.006507285
+            },
+            {
+                "name": "cancel",
+                "score": 0.005561047
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.003757281
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.003432393
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "LightSource",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "light",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 0,
+                "endTokenIndex": 0,
+                "phrase": "light",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "TurnedOn",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "light up",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "light up",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Toilet",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "phrase": "toilet",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "phrase": "toilet",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861903548,
+        "text": "turn on light in the kitchen",
+        "intentLabel": "set_power_state",
+        "tokenizedText": [
+            "turn",
+            "on",
+            "light",
+            "in",
+            "the",
+            "kitchen"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 5,
+                "endTokenIndex": 5,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "set_power_state",
+                "score": 0.993739
+            },
+            {
+                "name": "get_list",
+                "score": 0.0161577221
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00757276267
+            },
+            {
+                "name": "None",
+                "score": 0.00713081472
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00666385656
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00381059968
+            },
+            {
+                "name": "cancel",
+                "score": 0.00174586126
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "TurnedOn",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "turn on",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 1,
+                "phrase": "turn on",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "LightSource",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "phrase": "light",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "phrase": "light",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Kitchen",
+                "startTokenIndex": 5,
+                "endTokenIndex": 5,
+                "phrase": "kitchen",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "Location",
+                "startTokenIndex": 5,
+                "endTokenIndex": 5,
+                "phrase": "kitchen",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861903547,
+        "text": "let's play some music",
+        "intentLabel": "set_power_state",
+        "tokenizedText": [
+            "let",
+            "'",
+            "s",
+            "play",
+            "some",
+            "music"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 3,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 5,
+                "endTokenIndex": 5,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "set_power_state",
+                "score": 0.9554682
+            },
+            {
+                "name": "get_list",
+                "score": 0.0212026648
+            },
+            {
+                "name": "get_weather",
+                "score": 0.01132296
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.009428487
+            },
+            {
+                "name": "None",
+                "score": 0.009265027
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.006166617
+            },
+            {
+                "name": "cancel",
+                "score": 0.00387767772
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "TurnedOn",
+                "startTokenIndex": 0,
+                "endTokenIndex": 3,
+                "phrase": "let ' s play",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 0,
+                "endTokenIndex": 3,
+                "phrase": "let ' s play",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 5,
+                "endTokenIndex": 5,
+                "phrase": "music",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 5,
+                "endTokenIndex": 5,
+                "phrase": "music",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861903506,
+        "text": "what lights are on?",
+        "intentLabel": "get_list",
+        "tokenizedText": [
+            "what",
+            "lights",
+            "are",
+            "on",
+            "?"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 2,
+                "endTokenIndex": 3,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "get_list",
+                "score": 0.892953455
+            },
+            {
+                "name": "get_weather",
+                "score": 0.02146539
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.0209031571
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.0129492572
+            },
+            {
+                "name": "cancel",
+                "score": 0.0101958457
+            },
+            {
+                "name": "None",
+                "score": 0.0077293613
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.006570317
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "LightSource",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "lights",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "lights",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "TurnedOn",
+                "startTokenIndex": 2,
+                "endTokenIndex": 3,
+                "phrase": "are on",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 2,
+                "endTokenIndex": 3,
+                "phrase": "are on",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861903452,
+        "text": "list playing speakers",
+        "intentLabel": "get_list",
+        "tokenizedText": [
+            "list",
+            "playing",
+            "speakers"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "role": null,
+                "roleId": null
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "get_list",
+                "score": 0.945041537
+            },
+            {
+                "name": "None",
+                "score": 0.026641855
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.00683968561
+            },
+            {
+                "name": "cancel",
+                "score": 0.00574423373
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.00408837339
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00383799872
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00297815143
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "TurnedOn",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "playing",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "PowerState",
+                "startTokenIndex": 1,
+                "endTokenIndex": 1,
+                "phrase": "playing",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "AudioSource",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "phrase": "speakers",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 2,
+                "endTokenIndex": 2,
+                "phrase": "speakers",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    },
+    {
+        "id": 861903448,
+        "text": "list my light sources",
+        "intentLabel": "get_list",
+        "tokenizedText": [
+            "list",
+            "my",
+            "light",
+            "sources"
+        ],
+        "entityLabels": [
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 2,
+                "endTokenIndex": 3,
+                "role": null,
+                "roleId": null
+            }
+        ],
+        "intentPredictions": [
+            {
+                "name": "get_list",
+                "score": 0.948312461
+            },
+            {
+                "name": "set_power_state",
+                "score": 0.02019286
+            },
+            {
+                "name": "who_is_at_home",
+                "score": 0.009545443
+            },
+            {
+                "name": "None",
+                "score": 0.00754892454
+            },
+            {
+                "name": "get_weather",
+                "score": 0.00612609554
+            },
+            {
+                "name": "cancel",
+                "score": 0.0052904156
+            },
+            {
+                "name": "check_internet_speed",
+                "score": 0.00386982737
+            }
+        ],
+        "entityPredictions": [
+            {
+                "entityName": "LightSource",
+                "startTokenIndex": 2,
+                "endTokenIndex": 3,
+                "phrase": "light sources",
+                "entityType": 1,
+                "role": ""
+            },
+            {
+                "entityName": "DeviceType",
+                "startTokenIndex": 2,
+                "endTokenIndex": 3,
+                "phrase": "light sources",
+                "entityType": 1,
+                "role": ""
+            }
+        ],
+        "multiIntentPredictions": null
+    }
+]
